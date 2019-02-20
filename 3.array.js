@@ -62,6 +62,7 @@ var count = colors.unshift('black'); // colors: ["black", "red"], count: 2
 var item = colors.shift(); // colors: ["red"], item: 'black'
 
 // 排序
+// [a,b] -1: [a, b], 1: [b, a] 
 var values = [1, 2, 3, 4, 5];
 values.reverse(); // [5, 4, 3, 2, 1]
 
